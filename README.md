@@ -4,7 +4,7 @@ Script SQL para auditar alterações em procedures realizadas no banco de dados
 
 ## Tutorial de instalação
 
-Basta executar o script C_AUDIT.sql 
+Basta executar o script C_AUDIT_TABLE.sql e após isso o script C_TRIGGER.sql 
 Ele irá criar a tabela RCA_PROC_AUDIT e irá criar a trigger em seu banco de dados.
 O script deverá ser executado em todos os bancos de dados que se deseja auditar.
 
